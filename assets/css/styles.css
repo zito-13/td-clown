@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff8d6;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+
+
+    img {
+        width: 450px;
+    }
+}
+
+main {
+    border-radius: 12px;
+    margin: 0vh 10vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: url(/assets/images/MichelleThies-CUP_101A_sc028_2000_c.jpg);
+    position: relative;
+
+
+    img {
+        width: 100px;
+        position: absolute;
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+        border: solid 2px red;
+        border-radius: 50%;
+        padding: 5%;
+        background-color: #fff8d6c4;
+    }
+
+    #play {
+        font-family: "Rubik Spray Paint", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        color: red;
+        padding: 10px;
+        border-radius: 50%;
+        border-color: red;
+        margin-bottom: 10px;
+    }
+
+    #play:hover {
+        background-color: red;
+        border-color: white;
+        color: white;
+    }
+
+    #difficulté {
+        font-family: "Rubik Spray Paint", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: red;
+        padding: 10px;
+        border-radius: 50%;
+        border-color: red;
+    }
+
+    #difficulté:hover {
+        background-color: red;
+        border-color: white;
+        color: white;
+    }
+
+    #difficultébox {
+        display: flex;
+        flex-direction: column;
+        border: solid 2px red;
+        border-radius: 50%;
+        padding: 5%;
+        background-color: #fff8d6c4;
+        display: none;
+        #btnnormal {
+            font-family: "Rubik Spray Paint", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+            color: red;
+            padding: 10px;
+            border-radius: 50%;
+            border-color: red;
+            margin-bottom: 10px;
+        }
+        #btnhard {
+            font-family: "Rubik Spray Paint", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+            color: red;
+            padding: 10px;
+            border-radius: 50%;
+            border-color: red;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+
+    #scorecontainer {
+        font-family: "Rubik Spray Paint", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        margin: 0px 20px;
+        color: red;
+    }
+
+    #timer {
+        font-family: "Rubik Spray Paint", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+        margin: 0px 20px;
+        color: red;
+    }
+}
+
+#clown {
+    position: absolute;
+    transition: all 0.4s ease;
+    transform: translate(-50%, -50%);
+}
+
+#clown:hover {
+    width: 80px;
+
+}
+
+.hidden {
+    display: none !important;
+}
