@@ -4,7 +4,7 @@ clown.style.top = "400px"
 clown.style.display = "none"
 const contscore = document.querySelector('#scorecontainer')
   let tetris = new Audio()
-    tetris.src = "/assets/songs/[Jeu] Musique - Tetris.mp3"
+    tetris.src = "./assets/songs/[Jeu] Musique - Tetris.mp3"
 let chrono = 30
 let score = 0
 
@@ -63,7 +63,7 @@ function playpartie(difficult) {
 //son forsure
 function forsure() {
     let forsure = new Audio()
-    forsure.src = "/assets/songs/macron-for-sure.mp3"
+    forsure.src = "./assets/songs/macron-for-sure.mp3"
     forsure.play()
 }
 
