@@ -156,6 +156,7 @@ footer {
 @media only screen and (max-width: 768px) {
     body {
         background-image: url(../../assets/images/versionmobilebackground.png);
+        background-position: center;
         
         
     }
