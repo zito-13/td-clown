@@ -157,8 +157,10 @@ footer {
     body {
         background-image: url(../../assets/images/versionmobilebackground.png);
         
+        
     }
     main{
         background: none;
+        margin: 0;
     }
 }
